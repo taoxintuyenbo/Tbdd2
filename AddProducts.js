@@ -20,7 +20,6 @@ const AddProducts = ({ items, click, removeItem, setAddedItem }) => {
 
   return (
     <View>
-      {/* ... rest of your component */}
       <View>
         <Button title="Add to Cart" onPress={() => handleAddToCart(items)} />
       </View>
